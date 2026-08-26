@@ -1,0 +1,130 @@
+<!doctype html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="=width=divice-width, initial-scale1.0">
+    <title document></title>
+    <!-- linking .css files gose in the head tag-->
+     <link rel="stylessheet"href="styles.css">
+</head>
+<boody>
+    <div>
+        <!--a generic container, no meanig by itself, used for styling and layout-->
+    </div>
+    <!--semantic tag-->
+    <header>
+        <!--top section of the page or a section , usually with long/title/intro-->
+    </header>
+    <nav>
+        <!--contains navigation links, tells the browser/screen readers "this is the site menu"-->
+    </nav>
+    <main>
+        <!--this is the bread and butter or your website-->
+    </main>
+    <section>
+        <!--sections tag will be inside the <main> tags, group related content think of it like chapters in abook-->
+    </section>
+    <footer>
+        <!--bottom of the page or section, usually with copyright or contact info-->
+    </footer>
+
+    <div>
+        <div>my wensite</div>
+        <div>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+        </div>
+        <div>
+            <div>About Me</div>
+            <div> I am a web dev website--
+
+        </div>
+        </div>
+
+
+
+    <!-- semanic version-->
+     <header>
+
+     </header>
+     <footer>
+     </footer>
+
+
+
+
+
+
+
+
+
+     <ul>
+        <!--unordered list, bullet points-->
+     </ul>
+     <ol>
+        <!--ordered list, numbered-->
+     </ol>
+    <li>
+        <!--list item-->
+    </li>
+    <ul>
+        <il>orange</il>
+        <li>Apples</li>
+    </ul>
+
+    <ol>
+
+        <li>Pizza</li>
+        <li>Burgers</li>
+    </ol>
+
+
+    <table>
+        <!--table container-->
+        <tr>
+            <!--table row-->
+        </tr>
+        <th>
+            <!--table header, only used once-->
+        </th>
+        <td>
+            <!--table data-->
+        </td>
+        <table border="1px">
+            <tr>
+                <th>colum 1</th>
+                <th>colum 2</th>
+            </tr>
+            <tr>
+                <td>Data 1</td>
+                <td>Data 2</td>
+            </tr>
+    
+        </table>
+    </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+</boody>
+
+</html>
