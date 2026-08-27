@@ -1,0 +1,59 @@
+body {
+    background-color: lightblue;
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+header {
+    background-color: white;
+    padding: 10px;
+}
+
+h1 {
+    color: darkblue;
+    font-size: 30px;
+}
+
+h2 {
+    color: darkgreen;
+}
+
+nav {
+    background-color: white;
+    padding: 10px;
+}
+
+nav a {
+    color: darkblue;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    background-color: white;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+th {
+    background-color: lightgray;
+}
+
+footer {
+    background-color: white;
+    padding: 10px;
+}
