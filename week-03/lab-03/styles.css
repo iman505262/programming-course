@@ -1,0 +1,81 @@
+/* This styles the entire webpage */
+body {
+background-color: lightgray;
+font-family: Arial, sans-serif;
+}
+
+/* This ID styles the main header */
+#main-header {
+background-color: white;
+padding: 20px;
+margin-bottom: 20px;
+border: 2px solid black;
+}
+
+/* This styles the main heading */
+h1 {
+color: blue;
+font-size: 32px;
+}
+
+/* This styles heading 2 */
+h2 {
+color: green;
+font-size: 24px;
+}
+
+/* This styles paragraphs */
+p {
+color: black;
+font-size: 16px;
+}
+
+/* This class adds a background to important text */
+.highlight {
+background-color: white;
+padding: 10px;
+}
+
+/* This class styles multiple sections */
+.section-box {
+background-color: white;
+margin: 20px;
+padding: 15px;
+border: 1px solid black;
+}
+
+/* This styles the navigation area */
+nav {
+background-color: white;
+padding: 10px;
+}
+
+/* This styles all links */
+a {
+color: blue;
+text-decoration: none;
+}
+
+/* This changes the link when the mouse is over it */
+a:hover {
+color: red;
+text-decoration: underline;
+}
+
+/* This styles the table */
+table {
+border-collapse: collapse;
+}
+
+/* This adds borders and spacing to table cells */
+th, td {
+border: 1px solid black;
+padding: 5px;
+}
+
+/* This styles the footer */
+footer {
+background-color: white;
+padding: 10px;
+margin-top: 20px;
+}
