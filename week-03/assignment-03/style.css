@@ -1,0 +1,93 @@
+/* This CSS file is used for all pages */
+
+/* General page styling */
+body {
+background-color: lightblue;
+color: black;
+font-family: Arial, sans-serif;
+font-size: 16px;
+}
+
+/* Header styling */
+header {
+background-color: white;
+padding: 10px;
+}
+
+/* Main heading styling */
+h1 {
+color: darkblue;
+font-size: 30px;
+}
+
+/* Secondary heading styling */
+h2 {
+color: darkgreen;
+font-size: 24px;
+}
+
+/* Navigation bar styling */
+nav {
+background-color: white;
+padding: 10px;
+}
+
+/* Class for navigation links */
+.nav-item {
+color: darkblue;
+text-decoration: none;
+margin-right: 15px;
+}
+
+/* Hover effect for navigation links */
+.nav-item:hover {
+text-decoration: underline;
+color: darkgreen;
+}
+
+/* General section styling */
+section {
+background-color: white;
+padding: 15px;
+margin: 15px 0;
+}
+
+/* Class used for sections on all pages */
+.section-box {
+margin: 20px;
+padding: 20px;
+}
+
+/* Class used for paragraph text */
+.text-content {
+line-height: 1.6;
+}
+
+/* Class used for lists */
+.favorite-list {
+padding: 20px;
+}
+
+/* Table styling */
+table {
+border-collapse: collapse;
+width: 100%;
+}
+
+/* Table cell styling and padding */
+th, td {
+border: 1px solid black;
+padding: 8px;
+}
+
+/* Table heading styling */
+th {
+background-color: lightgray;
+}
+
+/* Footer styling */
+footer {
+background-color: white;
+padding: 10px;
+margin-top: 20px;
+}
