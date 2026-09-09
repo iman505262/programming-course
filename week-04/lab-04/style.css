@@ -1,0 +1,63 @@
+/* Style for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+    margin: 0;
+}
+
+/* Header style */
+header {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation uses Flexbox */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: black;
+    padding: 10px;
+}
+
+/* Navigation links */
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Main page spacing */
+main {
+    padding: 20px;
+}
+
+/* Section style */
+section {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+/* Flexbox for the game boxes */
+.game-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Individual game box */
+.game {
+    background-color: lightblue;
+    padding: 15px;
+    width: 45%;
+}
+
+/* Footer style */
+footer {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
