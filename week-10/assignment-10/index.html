@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chelsea FC - DOM Homework</title>
+
+    <style>
+        /* Highlight style */
+        .highlight {
+            background: lightblue;
+            transition: background 200ms;
+        }
+
+        /* Dark mode style */
+        .darkMode {
+            background: #111;
+            color: #eee;
+        }
+
+        /* Page style */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        img {
+            margin-top: 10px;
+            max-width: 100%;
+            height: auto;
+        }
+
+        button {
+            margin: 10px 5px 10px 0;
+            padding: 8px 12px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1 id="pageTitle">Chelsea FC Page</h1>
+    </header>
+
+    <main id="mainSection">
+
+        <p class="intro">Welcome to my Chelsea FC page!</p>
+
+        <p id="teamMessage">This is my favorite soccer team.</p>
+
+        <h2>Favorite Players</h2>
+
+        <ul id="playerList"></ul>
+
+        <img
+            id="teamImage"
+            src="stadium.jpg"
+            alt="Chelsea FC stadium"
+            width="400"
+        >
+
+        <br>
+
+        <button id="highlightButton">Toggle Highlight</button>
+
+        <button id="imageButton">Swap Image</button>
+
+    </main>
+
+    <footer id="pageFooter">
+        © 2026 Chelsea FC Page
+    </footer>
+
+    <script src="scripts.js"></script>
+
+</body>
+</html>
