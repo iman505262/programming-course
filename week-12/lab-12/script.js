@@ -23,3 +23,10 @@ form.addEventListener("submit", function(event) {
         <p><strong>Age:</strong> ${age}</p>
     `;
 });
+
+
+// What does event.preventDefault() actually prevent? It stops the page from refreshing when the user submits the form.
+
+// What does .value return? It gets the information that the user types into the input boxes.
+
+// Why use template literals (${}) instead of string concatenation? It makes it easier to add variables and information inside a string.
