@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <!--
+    what are the form?
+    froms are the main way users send information to a website
+    forms are wrapped in the <form> yag, and inside we place from control.
+        form control are text boxes, check boxes, buttons, ect.
+    -->
+
+    <!--
+    the form elemnt
+    -->
+
+    <form id="contactfrom">
+        <label for="name">Name</label>
+        <input type="text id=name" placeholder="Enter your name:">
+        <button type="submit">Click here to submit</button>
+
+    </form>
+
+
+
+
+
+
+
+
+    
+
+    <form>
+        <!--Inputs go between both form tags-->
+        <!--text,we use this input for short text(name,title,etc)-->
+
+        <label for="username">Name:</label>
+        <input id="username" type="=text" placeholder="Enter your name"/>
+        <!--Email, this is input validates proper email format-->
+        <br>
+        <label for="email">Email:</label>
+        <input id="email" type="email" placeholder="tou@email.com">
+        <br>
+
+        <!--number, we use this input type for numeric input(Age,quanity,year,etc)-->
+        <be>
+            <label for="age">Age:</label>
+            <input id="age" type="number" min="0" max="105"/>
+            <!--password: we use the ype to make the users password input-->
+            <label for="password"> password:</label>
+            <input id="password" type="password">
+
+            <!--textarea, we use this tpe for multi line or comments-->
+            <label for="message">Message</label>
+            <textarea id="message" row="4" cols="30"></textarea>
+            <br>
+
+            <!--Radio this type is grouped by name attribute, onle one can be selected-->
+
+            <p>fav size:</p>
+            <lable>
+                <input type="radio" name="size" value="=small">
+                small
+                <input type="radio" name="size" value="=medium">
+                medium
+
+            </lable>
+            <br>
+
+            <!-- checkbox: this is use for on/oss optiona (can be multiple)-->
+
+            <lable>
+                <input type="checkbox" id=" no subscribe">
+                Click here to not subscribe to news letter
+            </lable>
+
+            <!-- dropdown , this type create dropdown list, on evalue can be selected-->
+             <label for="color"> fav color?</label>
+             <select id="color">
+                <option value="red">red</option>
+                <option value="blue">blue</option>
+                <option value="white">white</option>
+
+                </select>
+
+        
+        
+
+    
+    </form>
+
+    
+
+
+
+
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
