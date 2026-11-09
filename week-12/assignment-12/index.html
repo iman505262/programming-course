@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pizza Order Form</title>
+</head>
+<body>
+
+    <h1>Pizza Order Form</h1>
+    <p>Fill out the form to order your pizza!</p>
+
+    <form id="pizzaForm">
+
+        <!-- Customer name -->
+        <label for="name">Name:</label>
+        <input id="name" type="text" placeholder="Enter your name" required>
+
+        <br><br>
+
+        <!-- Customer email -->
+        <label for="email">Email:</label>
+        <input id="email" type="email" placeholder="Enter your email" required>
+
+        <br><br>
+
+        <!-- Number of pizzas -->
+        <label for="quantity">How many pizzas?</label>
+        <input id="quantity" type="number" min="1" max="10" required>
+
+        <br><br>
+
+        <!-- Choose pizza size -->
+        <p>Choose your pizza size:</p>
+
+        <label>
+            <input type="radio" name="size" value="Small" required>
+            Small
+        </label>
+
+        <label>
+            <input type="radio" name="size" value="Medium">
+            Medium
+        </label>
+
+        <label>
+            <input type="radio" name="size" value="Large">
+            Large
+        </label>
+
+        <br><br>
+
+        <!-- Choose toppings -->
+        <p>Choose your toppings:</p>
+
+        <label>
+            <input type="checkbox" name="topping" value="Pepperoni">
+            Pepperoni
+        </label>
+
+        <label>
+            <input type="checkbox" name="topping" value="Mushrooms">
+            Mushrooms
+        </label>
+
+        <label>
+            <input type="checkbox" name="topping" value="Olives">
+            Olives
+        </label>
+
+        <br><br>
+
+        <!-- Choose crust -->
+        <label for="crust">Choose your crust:</label>
+
+        <select id="crust">
+            <option value="Regular">Regular</option>
+            <option value="Thin">Thin</option>
+            <option value="Stuffed">Stuffed</option>
+        </select>
+
+        <br><br>
+
+        <!-- Additional instructions -->
+        <label for="message">Special Instructions:</label>
+        <br>
+        <textarea id="message" rows="4" cols="30"
+        placeholder="Any special requests?"></textarea>
+
+        <br><br>
+
+        <button type="submit">Submit Order</button>
+
+    </form>
+
+    <!-- Display order information -->
+    <section id="result"></section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
