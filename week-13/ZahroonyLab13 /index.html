@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 13 - Form Validation</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            padding: 30px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        form {
+            display: grid;
+            gap: 10px;
+            max-width: 400px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input {
+            padding: 10px;
+            border: 1px solid gray;
+            border-radius: 5px;
+        }
+
+        button {
+            padding: 10px;
+            background-color: #245f9e;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #174675;
+        }
+
+        .error {
+            color: red;
+        }
+
+        .success {
+            color: green;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Contact Form</h1>
+
+    <p>Please enter your information below.</p>
+
+    <form id="contactForm" novalidate>
+
+        <!-- Name field -->
+        <label for="name">Name:</label>
+        <input
+            type="text"
+            id="name"
+            placeholder="Enter your name"
+            required
+        >
+        <p id="nameError" class="error"></p>
+
+        <!-- Email field -->
+        <label for="email">Email:</label>
+        <input
+            type="email"
+            id="email"
+            placeholder="Enter your email"
+            required
+        >
+        <p id="emailError" class="error"></p>
+
+        <!-- Age field -->
+        <label for="age">Age:</label>
+        <input
+            type="number"
+            id="age"
+            placeholder="Enter your age"
+            min="1"
+            required
+        >
+        <p id="ageError" class="error"></p>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+    <!-- Success message -->
+    <p id="successMessage"></p>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
